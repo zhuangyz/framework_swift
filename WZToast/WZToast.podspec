@@ -25,7 +25,7 @@ TODO: Add long description of the pod here.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'zhuangyz' => '632647076@qq.com' }
-  s.source           = { :git => 'https://github.com/zhuangyz/framework_swift/WZToast.podspec', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/zhuangyz/framework_swift/WZToast', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '13.0'
