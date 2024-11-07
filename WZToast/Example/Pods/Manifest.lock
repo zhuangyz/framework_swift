@@ -1,0 +1,16 @@
+PODS:
+  - WZToast (0.0.1)
+
+DEPENDENCIES:
+  - WZToast (from `../`)
+
+EXTERNAL SOURCES:
+  WZToast:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  WZToast: b99bd96bd1942ebd7fc2bb96da01295d2faaf907
+
+PODFILE CHECKSUM: 0cb28e53032ae7c3a52a1482a7b468b9a6d8d76d
+
+COCOAPODS: 1.16.2
