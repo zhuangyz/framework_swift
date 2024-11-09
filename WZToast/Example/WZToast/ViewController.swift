@@ -15,10 +15,6 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         view.backgroundColor = UIColor.white;
         
-        WZToast.Style.success.icon = UIImage(named: "success")
-        WZToast.Style.fail.icon = UIImage(named: "fail")
-        WZToast.Style.warn.icon = UIImage(named: "warning")
-        
         let btn = UIButton(type: .custom)
         btn.setTitle("click", for: .normal)
         btn.setTitleColor(UIColor.systemBlue, for: .normal)

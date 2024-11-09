@@ -6,7 +6,7 @@
   "homepage": "https://github.com/zhuangyz",
   "license": {
     "type": "MIT",
-    "file": "LICENSE"
+    "file": "WZToast/LICENSE"
   },
   "authors": {
     "zhuangyz": "632647076@qq.com"
@@ -18,5 +18,6 @@
   "platforms": {
     "ios": "13.0"
   },
-  "source_files": "WZToast/WZToast/Classes/**/*"
+  "source_files": "WZToast/WZToast/Classes/**/*",
+  "resources": "WZToast/WZToast/Assets/WZToastBundle.bundle"
 }

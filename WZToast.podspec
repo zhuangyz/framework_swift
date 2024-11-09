@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'WZToast'
-  s.version          = '0.0.1'
+  s.version          = '0.0.2'
   s.summary          = 'A short description of WZToast.'
 
 # This description is used to generate tags and improve search results.
@@ -23,7 +23,7 @@ TODO: Add long description of the pod here.
 
   s.homepage         = 'https://github.com/zhuangyz'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
+  s.license          = { :type => 'MIT', :file => 'WZToast/LICENSE' }
   s.author           = { 'zhuangyz' => '632647076@qq.com' }
   s.source           = { :git => 'https://github.com/zhuangyz/framework_swift.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
@@ -31,10 +31,7 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '13.0'
 
   s.source_files = 'WZToast/WZToast/Classes/**/*'
-  
-#   s.resource_bundles = {
-#     'WZToast' => ['WZToast/WZToast/Assets/**/*']
-#   }
+  s.resources = 'WZToast/WZToast/Assets/WZToastBundle.bundle'
 
   # s.public_header_files = 'WZToast/Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'

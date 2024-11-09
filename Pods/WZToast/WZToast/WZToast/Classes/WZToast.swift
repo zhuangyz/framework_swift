@@ -15,9 +15,9 @@ final public class WZToast {
         public var icon : UIImage?
         
         public static var info = Style(backgroundColor: UIColor.init(white: 0, alpha: 1), textColor: UIColor.white, font: UIFont.systemFont(ofSize: 14))
-        public static var success = Style(backgroundColor: UIColor(hexString: "#72DD4D")!, textColor: UIColor.white, font: UIFont.systemFont(ofSize: 14), icon: UIImage.getImageFromBundle(name: "success@3x.png"))
-        public static var fail = Style(backgroundColor: UIColor(hexString: "#E14747")!, textColor: UIColor.white, font: UIFont.systemFont(ofSize: 14), icon: UIImage.getImageFromBundle(name: "fail@3x.png"))
-        public static var warn = Style(backgroundColor: UIColor(hexString: "#F7C11F")!, textColor: UIColor.white, font: UIFont.systemFont(ofSize: 14), icon: UIImage.getImageFromBundle(name: "warning@3x.png"))
+        public static var success = Style(backgroundColor: UIColor(hexString: "#72DD4D")!, textColor: UIColor.white, font: UIFont.systemFont(ofSize: 14))
+        public static var fail = Style(backgroundColor: UIColor(hexString: "#E14747")!, textColor: UIColor.white, font: UIFont.systemFont(ofSize: 14))
+        public static var warn = Style(backgroundColor: UIColor(hexString: "#F7C11F")!, textColor: UIColor.white, font: UIFont.systemFont(ofSize: 14))
     }
     
     public enum Duration {
@@ -96,16 +96,6 @@ final public class WZToast {
                 }
             }
         }
-    }
-}
-
-private extension UIImage {
-    static func getImageFromBundle(name: String) -> UIImage? {
-        guard let path = Bundle(for: WZToast.self).path(forResource: "WZToastBundle", ofType: "bundle") else {
-            return nil
-        }
-        let bundle = Bundle(path: path)
-        return UIImage(named: name, in:  bundle, compatibleWith: nil)
     }
 }
 

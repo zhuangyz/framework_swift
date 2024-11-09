@@ -1,0 +1,16 @@
+PODS:
+  - WZToast (0.0.1)
+
+DEPENDENCIES:
+  - WZToast
+
+SPEC REPOS:
+  trunk:
+    - WZToast
+
+SPEC CHECKSUMS:
+  WZToast: d93849e80bb99f31af5f08ae250fd8803becae37
+
+PODFILE CHECKSUM: ad67b6ade31d48d41db1e104e15a0b328f2eb6a6
+
+COCOAPODS: 1.16.2

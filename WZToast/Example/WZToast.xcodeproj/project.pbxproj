@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		322AD7952CDF435100EEC1AC /* fail@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 322AD7922CDF435100EEC1AC /* fail@3x.png */; };
+		322AD7962CDF435100EEC1AC /* warning@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 322AD7942CDF435100EEC1AC /* warning@3x.png */; };
+		322AD7972CDF435100EEC1AC /* success@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 322AD7932CDF435100EEC1AC /* success@3x.png */; };
 		4C2DF8F756D77B6ECBFF9A8D /* Pods_WZToast_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D65E16103DBA915D6B66ADF /* Pods_WZToast_Example.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
@@ -18,6 +21,10 @@
 /* Begin PBXFileReference section */
 		02B8AC39AF851CD74D21F2D5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		322AD7822CDF337F00EEC1AC /* WZToast.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; name = WZToast.podspec; path = /Users/linjie/Documents/Code/framework_swift/WZToast.podspec; sourceTree = "<absolute>"; };
+		322AD7872CDF426800EEC1AC /* WZToastBundle.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WZToastBundle.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		322AD7922CDF435100EEC1AC /* fail@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fail@3x.png"; sourceTree = "<group>"; };
+		322AD7932CDF435100EEC1AC /* success@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "success@3x.png"; sourceTree = "<group>"; };
+		322AD7942CDF435100EEC1AC /* warning@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "warning@3x.png"; sourceTree = "<group>"; };
 		5D65E16103DBA915D6B66ADF /* Pods_WZToast_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WZToast_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* WZToast_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WZToast_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -37,6 +44,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		322AD7842CDF426800EEC1AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		607FACCD1AFB9204008FA782 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -48,9 +62,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		322AD7912CDF430500EEC1AC /* WZToastBundle */ = {
+			isa = PBXGroup;
+			children = (
+				322AD7922CDF435100EEC1AC /* fail@3x.png */,
+				322AD7932CDF435100EEC1AC /* success@3x.png */,
+				322AD7942CDF435100EEC1AC /* warning@3x.png */,
+			);
+			path = WZToastBundle;
+			sourceTree = "<group>";
+		};
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
+				322AD7912CDF430500EEC1AC /* WZToastBundle */,
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACD21AFB9204008FA782 /* Example for WZToast */,
 				607FACE81AFB9204008FA782 /* Tests */,
@@ -64,6 +89,7 @@
 			isa = PBXGroup;
 			children = (
 				607FACD01AFB9204008FA782 /* WZToast_Example.app */,
+				322AD7872CDF426800EEC1AC /* WZToastBundle.bundle */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -140,6 +166,25 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		322AD7862CDF426800EEC1AC /* WZToastBundle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 322AD78A2CDF426800EEC1AC /* Build configuration list for PBXNativeTarget "WZToastBundle" */;
+			buildPhases = (
+				322AD7832CDF426800EEC1AC /* Sources */,
+				322AD7842CDF426800EEC1AC /* Frameworks */,
+				322AD7852CDF426800EEC1AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WZToastBundle;
+			packageProductDependencies = (
+			);
+			productName = WZToastBundle;
+			productReference = 322AD7872CDF426800EEC1AC /* WZToastBundle.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
 		607FACCF1AFB9204008FA782 /* WZToast_Example */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "WZToast_Example" */;
@@ -169,6 +214,11 @@
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
+					322AD7862CDF426800EEC1AC = {
+						CreatedOnToolsVersion = 16.0;
+						DevelopmentTeam = 854E4B6PP3;
+						ProvisioningStyle = Automatic;
+					};
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
 						DevelopmentTeam = 854E4B6PP3;
@@ -191,11 +241,22 @@
 			projectRoot = "";
 			targets = (
 				607FACCF1AFB9204008FA782 /* WZToast_Example */,
+				322AD7862CDF426800EEC1AC /* WZToastBundle */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		322AD7852CDF426800EEC1AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				322AD7952CDF435100EEC1AC /* fail@3x.png in Resources */,
+				322AD7962CDF435100EEC1AC /* warning@3x.png in Resources */,
+				322AD7972CDF435100EEC1AC /* success@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		607FACCE1AFB9204008FA782 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -252,6 +313,13 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		322AD7832CDF426800EEC1AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		607FACCC1AFB9204008FA782 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -283,6 +351,82 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		322AD7882CDF426800EEC1AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 854E4B6PP3;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2024 CocoaPods. All rights reserved.";
+				INFOPLIST_KEY_NSPrincipalClass = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.zyz.all.WZToastBundle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		322AD7892CDF426800EEC1AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 854E4B6PP3;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2024 CocoaPods. All rights reserved.";
+				INFOPLIST_KEY_NSPrincipalClass = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.zyz.all.WZToastBundle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
 		607FACED1AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -419,6 +563,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		322AD78A2CDF426800EEC1AC /* Build configuration list for PBXNativeTarget "WZToastBundle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				322AD7882CDF426800EEC1AC /* Debug */,
+				322AD7892CDF426800EEC1AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "WZToast" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
