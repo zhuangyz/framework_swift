@@ -17,7 +17,7 @@
 
 /* Begin PBXFileReference section */
 		02B8AC39AF851CD74D21F2D5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		29852E413632C06E09730566 /* WZToast.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = WZToast.podspec; path = ../WZToast.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		322AD7822CDF337F00EEC1AC /* WZToast.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; name = WZToast.podspec; path = /Users/linjie/Documents/Code/framework_swift/WZToast.podspec; sourceTree = "<absolute>"; };
 		5D65E16103DBA915D6B66ADF /* Pods_WZToast_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WZToast_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* WZToast_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WZToast_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -110,7 +110,7 @@
 		607FACF51AFB993E008FA782 /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				29852E413632C06E09730566 /* WZToast.podspec */,
+				322AD7822CDF337F00EEC1AC /* WZToast.podspec */,
 				FBBCFE83AD60612E8D3EC5E4 /* README.md */,
 				02B8AC39AF851CD74D21F2D5 /* LICENSE */,
 			);
