@@ -3,11 +3,11 @@
 
 import UIKit
 
-//@MainActor
+@MainActor
 @available(iOS 13.0, *)
 final public class WZToast {
     
-//    @MainActor
+    @MainActor
     public struct Style {
         public var backgroundColor : UIColor
         public var textColor : UIColor
@@ -56,12 +56,33 @@ final public class WZToast {
         
     }
     
-    public func show(message: String, style: Style = .info, location: Location = .bottom, duration: Duration = .average) {
+    public func showInfo(message: String, location: Location = .bottom, duration: Duration = .average) {
+        show(message: message, style: .info, location: location, duration: duration)
+    }
+    
+    public func showSuccess(message: String, location: Location = .bottom, duration: Duration = .average) {
+        show(message: message, style: .success, location: location, duration: duration)
+    }
+    
+    public func showFail(message: String, location: Location = .bottom, duration: Duration = .average) {
+        show(message: message, style: .fail, location: location, duration: duration)
+    }
+    
+    public func showWarning(message: String, location: Location = .bottom, duration: Duration = .average) {
+        show(message: message, style: .warn, location: location, duration: duration)
+    }
+    
+    public func show(message: String, style: Style?, location: Location = .bottom, duration: Duration = .average) {
+        var s = style
+        if s == nil {
+            s = .info
+        }
+        
         if Thread.current.isMainThread {
-            _safeShow(message: message, style: style, location: location, duration: duration)
+            _safeShow(message: message, style: s!, location: location, duration: duration)
         } else {
             MainActor.assumeIsolated {
-                _safeShow(message: message, style: style, location: location, duration: duration)
+                _safeShow(message: message, style: s!, location: location, duration: duration)
             }
         }
     }
