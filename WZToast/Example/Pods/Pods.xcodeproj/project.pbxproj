@@ -33,25 +33,25 @@
 		418230BA5EFF8341CE1EC417C600E247 /* Pods-WZToast_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WZToast_Example-dummy.m"; sourceTree = "<group>"; };
 		4A3A2EF501BA483723E9478CDC31AE0E /* Pods-WZToast_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WZToast_Example-umbrella.h"; sourceTree = "<group>"; };
 		4F4FBF9765D276F960E70A576A41E716 /* WZToastV2-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WZToastV2-prefix.pch"; sourceTree = "<group>"; };
-		516087F42F8614DDBB9E89BB2E643422 /* WZToastV2.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = WZToastV2.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		516087F42F8614DDBB9E89BB2E643422 /* WZToastV2.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = WZToastV2.podspec; sourceTree = "<group>"; tabWidth = 2; };
 		5262887562A3CB4EA2CA0D8EF1975D15 /* Pods-WZToast_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WZToast_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		58806DE612721803A93AECE4704CDF5A /* WZToastV2.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WZToastV2.modulemap; sourceTree = "<group>"; };
 		5B6CD4602FEB5C8D21B9A67226E574F7 /* Pods-WZToast_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WZToast_Example.release.xcconfig"; sourceTree = "<group>"; };
 		5C803C9CA9EE54D7A076F31F0614E4A0 /* Pods-WZToast_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WZToast_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		668A1F49C85331A9AD2F5EBFFFB819DC /* WZToastV2-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WZToastV2-umbrella.h"; sourceTree = "<group>"; };
-		6F639BC6DA36DFA40668E08B3C64F539 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = WZToast/LICENSE; sourceTree = "<group>"; };
-		7E822FA825AC0DD3FF1A5B3DD59E7D70 /* WZToastV2 */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WZToastV2; path = WZToastV2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F639BC6DA36DFA40668E08B3C64F539 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = WZToast/LICENSE; sourceTree = "<group>"; };
+		7E822FA825AC0DD3FF1A5B3DD59E7D70 /* WZToastV2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WZToastV2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		89E8503C91DCB3231B94F0A3EC4EBC7F /* Pods-WZToast_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WZToast_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		96A9EB1CE70C0D6314AED9D5887CF084 /* Pods-WZToast_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WZToast_Example.modulemap"; sourceTree = "<group>"; };
 		9C36062E8FD9D18468FB073F3463A5DD /* WZToastV2-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WZToastV2-Info.plist"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A60312B91854DF933E719A04100901F4 /* WZToast.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WZToast.swift; path = WZToast/WZToast/Classes/WZToast.swift; sourceTree = "<group>"; };
 		A863C4FF6D1BB2259A7B73A30C08E8A1 /* WZToastV2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WZToastV2.debug.xcconfig; sourceTree = "<group>"; };
 		BF6F83C3781AF32C571C47615E20300F /* Pods-WZToast_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WZToast_Example-frameworks.sh"; sourceTree = "<group>"; };
 		D2338343F13B5E514B4E491AED112D28 /* Pods-WZToast_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WZToast_Example-Info.plist"; sourceTree = "<group>"; };
 		D48AEC2E3FD3887572C5626428BDE04F /* WZToastV2-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WZToastV2-dummy.m"; sourceTree = "<group>"; };
 		E4023DB315D7FBE87D1623009897273F /* WZToastV2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WZToastV2.release.xcconfig; sourceTree = "<group>"; };
-		F6FC4AC6348136B98FF9717F2521AFAC /* Pods-WZToast_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-WZToast_Example"; path = Pods_WZToast_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6FC4AC6348136B98FF9717F2521AFAC /* Pods_WZToast_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WZToast_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,8 +110,8 @@
 		7FC4AD29C7E3AB794060358C3A3EE508 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F6FC4AC6348136B98FF9717F2521AFAC /* Pods-WZToast_Example */,
-				7E822FA825AC0DD3FF1A5B3DD59E7D70 /* WZToastV2 */,
+				F6FC4AC6348136B98FF9717F2521AFAC /* Pods_WZToast_Example.framework */,
+				7E822FA825AC0DD3FF1A5B3DD59E7D70 /* WZToastV2.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -216,7 +216,7 @@
 			);
 			name = WZToastV2;
 			productName = WZToastV2;
-			productReference = 7E822FA825AC0DD3FF1A5B3DD59E7D70 /* WZToastV2 */;
+			productReference = 7E822FA825AC0DD3FF1A5B3DD59E7D70 /* WZToastV2.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		C34A33702941DF5843A03BCF0AF9CF97 /* Pods-WZToast_Example */ = {
@@ -235,7 +235,7 @@
 			);
 			name = "Pods-WZToast_Example";
 			productName = Pods_WZToast_Example;
-			productReference = F6FC4AC6348136B98FF9717F2521AFAC /* Pods-WZToast_Example */;
+			productReference = F6FC4AC6348136B98FF9717F2521AFAC /* Pods_WZToast_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -256,8 +256,6 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			minimizedProjectReferenceProxies = 0;
-			preferredProjectObjectVersion = 77;
 			productRefGroup = 7FC4AD29C7E3AB794060358C3A3EE508 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -469,8 +467,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
