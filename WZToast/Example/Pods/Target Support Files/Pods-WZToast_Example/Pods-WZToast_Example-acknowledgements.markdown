@@ -1,7 +1,7 @@
 # Acknowledgements
 This application makes use of the following third party libraries:
 
-## WZToast
+## WZToastV2
 
 Copyright (c) 2024 zhuangyz <632647076@qq.com>
 

@@ -1,16 +1,16 @@
 PODS:
-  - WZToast (0.0.1)
+  - WZToastV2 (2.0.0)
 
 DEPENDENCIES:
-  - WZToast (from `../../`)
+  - WZToastV2 (from `../../`)
 
 EXTERNAL SOURCES:
-  WZToast:
+  WZToastV2:
     :path: "../../"
 
 SPEC CHECKSUMS:
-  WZToast: fe96464b800bfcf8874f409dbc809c06f63af70c
+  WZToastV2: f41313eee6a1d4937cbb741afb1bb234d74bf906
 
-PODFILE CHECKSUM: 4224e5e46bbe4c376cc40d9c0ecb66ccd0529f06
+PODFILE CHECKSUM: 6f43b56501a1d28710eaae70fcb280a3d46fd108
 
-COCOAPODS: 1.16.2
+COCOAPODS: 1.15.2

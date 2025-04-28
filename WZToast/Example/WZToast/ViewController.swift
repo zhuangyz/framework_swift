@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import WZToast
+import WZToastV2
 
 class ViewController: UIViewController {
     
@@ -27,6 +27,7 @@ class ViewController: UIViewController {
         print("\(Date())")
         WZToast.shared.show(message: "short message", style: .warn, location: .bottom, duration: .average)
         WZToast.shared.show(message: "长文字长文字长文字长文字长文字长文字长文字长文字长文字长文字长文字长文字长文字长文字", style: .success, location: .top, duration: .custom(5))
+        WZToast.shared.show(message: "asdasd", style: WZToast.Style(backgroundColor: UIColor.white, textColor: UIColor.black, font: UIFont.systemFont(ofSize: 12)))
         print("\(Date())")
     }
 

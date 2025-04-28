@@ -1,6 +1,0 @@
-framework module WZToast {
-  umbrella header "WZToast-umbrella.h"
-
-  export *
-  module * { export * }
-}

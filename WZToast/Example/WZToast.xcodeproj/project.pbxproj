@@ -26,6 +26,7 @@
 		322AD7932CDF435100EEC1AC /* success@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "success@3x.png"; sourceTree = "<group>"; };
 		322AD7942CDF435100EEC1AC /* warning@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "warning@3x.png"; sourceTree = "<group>"; };
 		5D65E16103DBA915D6B66ADF /* Pods_WZToast_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WZToast_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DDC55682DBF26FA00C333AD /* WZToastV2.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = WZToastV2.podspec; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* WZToast_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WZToast_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -137,6 +138,7 @@
 			isa = PBXGroup;
 			children = (
 				322AD7822CDF337F00EEC1AC /* WZToast.podspec */,
+				5DDC55682DBF26FA00C333AD /* WZToastV2.podspec */,
 				FBBCFE83AD60612E8D3EC5E4 /* README.md */,
 				02B8AC39AF851CD74D21F2D5 /* LICENSE */,
 			);
@@ -179,8 +181,6 @@
 			dependencies = (
 			);
 			name = WZToastBundle;
-			packageProductDependencies = (
-			);
 			productName = WZToastBundle;
 			productReference = 322AD7872CDF426800EEC1AC /* WZToastBundle.bundle */;
 			productType = "com.apple.product-type.bundle";
@@ -277,11 +277,11 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-WZToast_Example/Pods-WZToast_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/WZToast/WZToast.framework",
+				"${BUILT_PRODUCTS_DIR}/WZToastV2/WZToastV2.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WZToast.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WZToastV2.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

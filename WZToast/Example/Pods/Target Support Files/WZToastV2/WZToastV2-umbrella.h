@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double WZToastVersionNumber;
-FOUNDATION_EXPORT const unsigned char WZToastVersionString[];
+FOUNDATION_EXPORT double WZToastV2VersionNumber;
+FOUNDATION_EXPORT const unsigned char WZToastV2VersionString[];
 
